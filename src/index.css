@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.addtask  {
+  display: flex;
+  justify-content: space-around;
+}
+.addtask > input,
+.addtask > button  {
+  width: 75%;
+  padding: 5px;
+  margin: 10px 0;
+  font-size: 1.2rem;
+  border: 1px solid gainsboro;
+  box-shadow: 1px 1px 0px gainsboro;
+}
+.addtask > button {
+
+  width: 23%;
+  background-color: #000000;
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: ease-in-out .25s;
+}
+.addtask > button:hover {
+  background-color: #00000076;
+}
+.bttn > button {
+  background-color: #008000;
+  width: 15%;
+  padding: 8px;
+  margin: 10px 0;
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: ease-in-out .25s;
+}
+.bttn > button:hover {
+  background-color: #00800090;
+}
+ 
